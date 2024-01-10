@@ -89,3 +89,8 @@ table, th, td {
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+}
