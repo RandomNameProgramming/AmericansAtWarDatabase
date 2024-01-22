@@ -4,7 +4,6 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(255, 0, 0);
 }
 
 .button {
@@ -53,7 +52,7 @@ table, th, td {
 }
 
 .dropdown:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(100, 0, 255);
     color: black;
 }
 
@@ -63,7 +62,7 @@ table, th, td {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out; 
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(100, 0, 255);
 }
 
 .holding-box {
@@ -90,6 +89,7 @@ table, th, td {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 footer {
+    color: blue;
     position: fixed;
     bottom: 0;
     width: 100%;   
