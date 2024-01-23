@@ -34,9 +34,9 @@ thead {
 }
 
 table, th, td {
-    border: 1px solid blue;
+    border: 1px solid black;
     border-collapse: collapse;
-}
+  }
 
 .dropdown {
     background-color: rgb(0, 0, 255);
@@ -93,4 +93,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;   
+}
+
+.infotable {
+    border: 2px solid white;
+    border-collapse: collapse;
 }
